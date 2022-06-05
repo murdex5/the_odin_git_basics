@@ -37,9 +37,21 @@ function playRound(playerSelection, computerSelection) {
     }
 };
 
-let playerWord = playerPlay("Rock");
-let computerWord = computerPlay();
+// let playerWord = playerPlay("Rock");
+// let computerWord = computerPlay();
 
-console.log("You chose " + playerWord)
-console.log("Computer chose " + computerWord)
-console.log(playRound(playerWord, computerWord))
+// console.log("You chose " + playerWord)
+// console.log("Computer chose " + computerWord)
+// console.log(playRound(playerWord, computerWord))
+
+// function game(playRound) {
+//     computerScore = 0;
+//     playerScore = 0;
+//     for (let i = 0; i < 5; i++) {
+//         let playerWord = prompt("Rock, paper or scissors: ")
+//         let computerWord = computerPlay();
+//         console.log(playRound(playerWord, computerWord))
+//     }
+// }
+
+// game(playRound)
