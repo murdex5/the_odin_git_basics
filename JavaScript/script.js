@@ -37,12 +37,12 @@ function playRound(playerSelection, computerSelection) {
     }
 };
 
-// let playerWord = playerPlay("Rock");
-// let computerWord = computerPlay();
+let playerWord = playerPlay("Paper");
+let computerWord = computerPlay();
 
-// console.log("You chose " + playerWord)
-// console.log("Computer chose " + computerWord)
-// console.log(playRound(playerWord, computerWord))
+console.log("You chose " + playerWord)
+console.log("Computer chose " + computerWord)
+console.log(playRound(playerWord, computerWord))
 
 // function game(playRound) {
 //     computerScore = 0;
